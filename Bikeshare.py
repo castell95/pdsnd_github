@@ -40,6 +40,7 @@ def get_filters():
         month_input=input('Please choose a month between January and June: or type in all: \n')
         if month_input.lower() in MONTH_DATA:
             month=month_input.lower()
+            print("The month you have selected is:"+month)
         else:
             print("The month you have selected is not valid. Please try again \n")
     # get user input for day of week (all, monday, tuesday, ... sunday)
@@ -197,8 +198,8 @@ def main():
         user_stats(df, city)
         raw_data(df)
 
-        restart = input('\nWould you like to restart? Enter yes or no.\n')
-        if restart.lower() != 'yes':
+        restart = input('\nDo you wish a restart of the Program? Enter yes or no.\n')
+        if restart.lower() != 'yes' or restart.lower() != 'y':
             break
 
 
