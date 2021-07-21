@@ -11,8 +11,8 @@ You can analyze Bike Share Data from a bicycle-sharing system in the cities: Chi
 Start/End Station and User Type.
 
 ### Files used
-*Git Command Documentation.pdf
-*Git-KeyTerms.pdf
+1:Git Command Documentation.pdf
+2:Git-KeyTerms.pdf
 
 ### Credits
 Inspired from: https://docs.github.com/en/get-started/
